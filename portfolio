@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacob Wheeler's Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <script src="script.js" defer></script> <!-- Link to your JavaScript file -->
+</head>
+<body>
+    <header>
+        <h1>Jacob Wheeler</h1>
+        <nav>
+            <ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am Jacob Wheeler, a student at High Point University. I am passionate about learning and developing my skills in Website Developing.</p>
+            <h3>Who am I?</h3>
+            <p>I am a dedicated student eager and excited to apply my knowledge and skills in real-world scenarios.</p>
+
+            <h3>What do I offer?</h3>
+            <p>I offer a fresh perspective and a strong willingness to learn, as well as skills in website developing and programming.</p>
+
+            <h3>What is my profession?</h3>
+            <p>I am a student, currently focusing on Computer Science.</p>
+
+            <h3>Why should people work with me?</h3>
+            <p>People should work with me because I am committed, adaptable, and always ready to take on new challenges. My passion for programming motivates me to give my best.</p>
+
+            <h3>Which actions should you take?</h3>
+            <p>If you're interested in collaborating or learning more, please don't hesitate to reach out!</p>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>If you would like to get in touch, please reach out via <a href="mailto:jwheele1@highpoint.edu">email</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <table>
+  <tr>
+    <th style="background-color:#6A7B76;">#6A7B76</th>
+    <th style="background-color:#040303;">#040303</th>
+    <th style="background-color:#3A4E48;">#3A4E48</th>
+    <th style="background-color:#8B9D83;">#8B9D83</th>
+    <th style="background-color:#BEB0A7;">#BEB0A7</th>
+  </tr>
+      </table>
+      
+      <button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+      </footer>
+      

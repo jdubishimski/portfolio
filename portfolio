@@ -58,4 +58,5 @@ Click me to display Date and Time.</button>
 
 <p id="demo"></p>
       </footer>
-      
+      <h2 <a href="rps.html" style=text-decoration: underline;> Rock Paper Scissors </a>
+</h2>
